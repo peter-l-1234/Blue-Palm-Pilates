@@ -8,4 +8,14 @@
     align-items: center; /* Vertically center the content */
     text-align: center; /* Center the text */
     color: white; /* Change title color to contrast with the background */
+    
 }
+@media only screen and (max-width: 768px) {
+    /* Styles for mobile devices */
+    .hero {
+      height: auto; /* Remove fixed height for better scaling */
+    }
+    .hero h2 {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+  }
