@@ -31,15 +31,22 @@
         .hero {
             background: url('Blue Palm Landscape.jpg');
             background-size: cover;
+            max-width: 768px;
+            height: 500px;
             /* background: url('Blue Palm Landscape.jpg') no-repeat center center/cover; */
-            height: 500px; 
+            /* height: 500px;  */
+            /* Remove fixed height for better scaling */
+            /* height: auto; */
             /* padding: 20px 20px; */
             display: flex;
             align-items: center;
             justify-content: center;
             color: #fff;
-            font-size: 1.5em;
+            font-size: 1em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            white-space: pre-wrap;
+            /* @media only screen and (max-width: 768px)  */
+        
         }
         .content {
             padding: 20px;
@@ -60,7 +67,8 @@
 <body>
 
 <header>
-    <h1>Blue Palm Pilates</h1>
+    <h1>Blue Palm Pilates
+    </h1>
     <nav>
         <a href="#about">About</a>
         <a href="#classes">Classes</a>
@@ -69,7 +77,7 @@
 </header>
 
 <div class="hero">
-    <h2>Transform Your Body and Mind</h2>
+    <h2>Transform your body and Mind</h2>
 </div>
 
 <div class="content">
